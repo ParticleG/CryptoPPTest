@@ -1,25 +1,12 @@
 {
-    "name": "techluster",
-    "version-string": "0.1.0-dev",
+    "name": "cryptopp-test",
+    "version-string": "0.0.1-dev",
     "maintainers": [
         "Particle_G <particle_g@outlook.com>"
     ],
-    "description": "The new distributed backends for the block stacking game <Techmino>",
-    "homepage": "https://github.com/26F-Studio/Techluster",
-    "documentation": "https://github.com/26F-Studio/Techmino-Docs",
+    "description": "",
     "license": "LGPL-3.0",
     "dependencies": [
-        "cpp-redis",
-        {
-            "name": "drogon",
-            "default-features": false,
-            "features": [
-                "ctl",
-                "orm",
-                "postgres"
-            ]
-        },
-        "cryptopp",
-        "mailio"
+        "cryptopp"
     ]
 }
